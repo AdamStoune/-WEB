@@ -1,0 +1,995 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+/* Импорт шрифта Gothic A1 */
+
+/* Устанавливаем box-sizing */
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+/* Применяем box-sizing: border-box ко всем элементам, включая псевдоэлементы before и after */
+
+/* Убираем внутренние отступы */
+ul[class],ol[class] {
+  padding: 0;
+}
+/* Убираем padding у ul и ol элементов с атрибутом class */
+
+/* Убираем внешние отступы */
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd {
+  margin: 0;
+}
+/* Убираем margin по умолчанию у нескольких распространенных элементов */
+
+/* Стилизация ссылок */
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #BB9B75;
+}
+/* Убираем подчеркивание и задаем цвета для ссылок по умолчанию и при наведении */
+
+/* Стилизация тела документа */
+body {
+  width: 100%;
+  background-color: #F8F8F8;
+}
+/* Устанавливаем ширину тела документа на 100% и фоновый цвет светло-серый */
+
+/* Стилизация заголовка */
+header {
+  width: 90%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Устанавливаем ширину заголовка, верхний отступ и используем flexbox для разметки */
+
+/* Стили для заголовков */
+h1, h2, h3, h4, h5 {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 770;
+}
+/* Применяем шрифт Gothic A1 и устанавливаем толщину шрифта для заголовков */
+
+/* Класс обертки */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+/* Flexbox разметка для wrapper, центрируем содержимое */
+
+/* Основной блок */
+main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+/* Flexbox разметка для main, центрируем содержимое и устанавливаем ширину */
+
+/* Контейнер 1 */
+.cont_1 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* Flexbox разметка для cont_1, центрируем содержимое и равномерно распределяем пространство */
+
+.cont_1 img {
+  width: 45px;
+  height: 45px;
+}
+/* Устанавливаем ширину и высоту для изображений в cont_1 */
+
+.cont_1 h2 {
+  font-size: 1em;
+}
+/* Устанавливаем размер шрифта для h2 в cont_1 */
+
+/* Контейнер 2 */
+.cont_2 {
+  width: 100%;
+  border-left: 1px solid #DFDFDF;
+  border-right: 1px solid #DFDFDF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Flexbox разметка для cont_2, добавляем левые и правые границы */
+
+.cont_2 input {
+  width: 95%;
+  height: 50%;
+  padding-left: 10px;
+  border: 1px solid #D3D3D3;
+  font-size: 0.9em;
+  color: #393939;
+  background-image: url('img/loupe.svg');
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: center;
+  font-family: 'Advent';
+}
+/* Стилизация input в cont_2, включая фоновое изображение и стили текста */
+
+/* Контейнер 3 */
+.cont_3 {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* Flexbox разметка для cont_3, центрируем содержимое и равномерно распределяем пространство */
+
+.cont_3 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 50%;
+  background-color: #dfdfdf00;
+  border: 1px solid #DFDFDF;
+}
+/* Стилизация кнопок в cont_3, используем flexbox для центрирования содержимого */
+
+.cont_3 img {
+  width: 10px;
+}
+/* Устанавливаем ширину для изображений в cont_3 */
+
+/* Групповой контейнер */
+.cont_gr {
+  height: 40px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Flexbox разметка для cont_gr, центрируем содержимое и устанавливаем ширину */
+
+.cont_gr select {
+  background-color: #F8F8F8;
+  border: none;
+  font-size: 1em;
+}
+/* Устанавливаем фоновый цвет для select в cont_gr */
+
+.cont_gr img {
+  height: 20px;
+}
+/* Устанавливаем высоту для изображений, убираем границу и устанавливаем размер шрифта для select в cont_gr */
+
+/* Стилизация кнопки */
+.contain {
+  display: flex;
+  width: 110px;
+  height: 30px;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #CFAE87;
+  border: none;
+}
+/* Flexbox разметка для contain, устанавливаем размер, шрифт и цвет фона */
+
+.contain:hover {
+  background: linear-gradient(to right, #F6EFD2, #CEAD78);
+  box-shadow: 0 0 0 2px #CEAD78 inset, 0 0 0 4px white inset;
+}
+/* Эффект наведения для contain, добавляем градиентный фон и inset тень */
+
+.contain img {
+  width: 15px;
+}
+/* Устанавливаем ширину для изображений в contain */
+
+.contain p {
+  padding-left: 5px;
+}
+/* Добавляем padding слева для p в contain */
+
+/* Контейнер изображений */
+.cont_img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* Flexbox разметка для cont_img, устанавливаем строковую ориентацию и выравниваем элементы по центру */
+
+/* Контейнер шириной 10% */
+.contain_10 {
+  width: 10%;
+  display: flex;
+}
+/* Устанавливаем ширину для contain_10 и используем flexbox */
+
+/* Стилизация текста */
+.text_cont p {
+  font-size: 0.4em;
+}
+/* Устанавливаем размер шрифта для p в text_cont */
+
+.cont_img .img {
+  width: 15px;
+}
+/* Устанавливаем ширину для изображений в cont_img */
+
+/* Основной блок */
+.bild {
+  display: grid;
+  width: 100%;
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+/* Сетка для bild, устанавливаем ширину, верхний отступ и сеточные колонки */
+
+.osn_text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+/* Flexbox разметка для osn_text, устанавливаем столбцовую ориентацию и ширину */
+
+/* Внутренний текст */
+.int_text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* Flexbox разметка для int_text, устанавливаем столбцовую ориентацию и ширину */
+
+.int_text .fir {
+  font-size: 5em;
+  line-height: 0.9em;
+  margin-bottom: 25px;
+}
+/* Стилизация класса fir в int_text, устанавливаем размер шрифта, высоту строки и нижний отступ */
+
+/* Подробный блок */
+.podrob {
+  display: flex;
+  width: 120%;
+  flex-direction: row;
+}
+/* Flexbox разметка для podrob, устанавливаем строковую ориентацию и ширину */
+
+.podrob img {
+  margin-left: 15px;
+  width: 25%;
+}
+/* Устанавливаем левый отступ и ширину для изображений в podrob */
+
+/* Стилизация класса priem в podrob */
+.podrob .priem {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 8em;
+}
+/* Flexbox разметка для priem в podrob, устанавливаем строковую ориентацию и равномерное распределение пространства */
+
+/* Внутренние блоки в priem */
+.priem .fir .one, .two {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  font-size: 0.9em;
+}
+/* Flexbox разметка для классов one и two внутри fir в priem, устанавливаем столбцовую ориентацию, высоту строки и размер шрифта */
+
+.priem .one {
+  color: #BB9B75;
+}
+/* Устанавливаем цвет для класса one в priem */
+
+.priem .three {
+  font-size: 0.8em;
+}
+/* Устанавливаем размер шрифта для класса three в priem */
+
+/* Класс cl_1 */
+.cl_1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* Flexbox разметка для cl_1, устанавливаем равномерное распределение пространства и ширину */
+
+.cl_1 img {
+  width: 16%;
+}
+/* Устанавливаем ширину для изображений в cl_1 */
+
+/* Стилизация блока сертификатов */
+.sertificat {
+  margin-top: 50px;
+}
+/* Устанавливаем верхний отступ для sertificat */
+
+.sertificat .fisrt__ {
+  display: flex;
+  align-items: end;
+}
+/* Flexbox разметка для fisrt__ в sertificat, выравнивание элементов по нижнему краю */
+
+.fisrt__ h1 {
+  font-size: 3.4em;
+}
+/* Устанавливаем размер шрифта для h1 в fisrt__ */
+
+/* Стили для первого параграфа */
+.fisrt__ p{
+    margin-left: -100px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Стили для контейнера с flex display */
+.disp_fl{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Стили для заголовка внутри flex контейнера */
+.disp_fl h2{
+    font-size: 3.2em;
+    align-items: center;
+}
+
+/* Стили для блока raskumar */
+.raskumar{
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px 5px #F2F2F2;
+    height: 620px;
+}
+
+/* Стили для кнопки contain_1 */
+.contain_1{
+    display: flex;
+    color: white;
+    width: 160px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFAE87;
+    border: none;
+}
+
+/* Стили при наведении на кнопку contain_1 */
+.contain_1:hover{
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+    box-shadow: 0 0 0 2px #CEAD78 inset, 0 0 0 4px white inset;   
+}
+
+/* Стили для текста внутри кнопки contain_1 */
+.contain_1 p{
+    font-size: 0.85em;
+}
+
+/* Стили для изображения внутри кнопки contain_1 */
+.contain_1 img{
+    width: 10%;
+}
+
+/* Стили для верхнего блока raskumar */
+.raskumar_top{
+    margin-top: 20px;
+    height: 650px;
+}
+
+/* Стили для сетки narkot */
+.narkot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 10px;
+    justify-content: space-around;
+}
+
+/* Стили для карточек внутри сетки narkot */
+.card{
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #FFFFFF;
+    height: 105%;
+}
+
+/* Стили для изображений внутри сетки narkot */
+.narkot img{
+    display: flex;
+    width: 100%;
+}
+
+/* Стили для заголовков и параграфов внутри manual */
+.manual h3,
+.manual p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/* Стили для параграфов внутри manual */
+.manual p{
+    font-size: 0.85em;
+}
+
+/* Стили для заголовков внутри manual */
+.manual h3{
+    font-size: 1.3em;
+}
+
+/* Стили для кнопок внутри manual */
+.manual button{
+    display: block;
+    width: 85%;
+    height: 40px;
+}
+
+/* Стили при наведении на первую кнопку внутри manual */
+.manual .fir:hover{
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+    box-shadow: 1px 1px 10px 1px #ffd5a1;   
+    color: white;
+}
+
+/* Стили при наведении на вторую кнопку внутри manual */
+.manual .sec:hover{
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    box-shadow: 0 0 0 2px #D2973D inset, 0 0 0 4px white inset;
+    border: none;
+}
+
+/* Стили для контейнера кнопок внутри manual */
+.manual .btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Стили для первой кнопки внутри manual */
+.manual .fir{
+    margin-top: 10px;
+    background-color: #CFAE87;
+    border: none;
+    color: white;
+}
+
+/* Стили для второй кнопки внутри manual */
+.manual .sec{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 10px;
+    border:2px solid #CFAE87;
+}
+
+/* Стили для блока отзывов reviews */
+.reviews{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Стили для заголовков внутри reviews */
+.reviews h2{
+    font-size: 3.4em;
+}
+
+/* Стили для кнопок внутри блока отзывов */
+.revie_btn button{
+    width: 160px;
+    height: 35px;
+    background-color: #CFAE87;
+    border: none;
+    color: white;
+}
+
+/* Стили при наведении на кнопки внутри блока отзывов */
+.revie_btn button:hover{
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+    box-shadow: 0 0 0 2px #CEAD78 inset, 0 0 0 4px white inset; 
+}
+
+/* Стили для блока m_otziv */
+.m_otziv{
+    width: 100%;
+    box-shadow: 1px 1px 5px 5px #F2F2F2;
+    margin-top: 50px;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+/* Стили для сетки отзывов otziv */
+.otziv{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 5px;
+    padding-left: 10px;
+    justify-content: space-around;
+}
+
+/* Стили для карточек внутри сетки отзывов */
+.otziv_card{
+    width: 100%;
+    height: 95%;
+    padding: 20px;
+    border:1px solid #dcdcdc;
+}
+
+/* Стили для заголовков внутри otziv_img */
+.otziv_img h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+
+/* Стили для блока изображений otziv_img */
+.otziv_img{
+    display: flex;
+    align-items: center;
+}
+
+/* Стили для изображений внутри otziv_img */
+.otziv_img img{
+    width: 55px;
+    height: 55px;
+    padding-right: 7px;
+}
+
+/* Стили для текста внутри otziv_text */
+.otziv_text{
+    margin-top: 10px;
+    font-size: 0.6em;
+}
+
+/* Стили для изображений внутри otziv_end */
+.otziv_end img{
+    width: 22px;
+    height: 22px;
+}
+
+/* Стили для блока otziv_end */
+.otziv_end{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+/* Стили для блока консультаций consult */
+.consult{
+    display: grid;
+    width: 100%;   
+    height: 100%; 
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    box-shadow: 1px 1px 5px 5px #F2F2F2;
+}
+
+/* Стили для изображений внутри блока consult */
+.consult .img img{
+    width: 100%;
+    width: 350px;
+}
+
+/* Стили для текста внутри блока consult */
+.consult_text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+/* Стили для текста внутри блока consult */
+.consult_text .text{
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Стили для элементов списка внутри блока consult */
+.consult_text li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.85em;
+    padding-bottom: 5px;
+}
+
+/* Стили для заголовков внутри текста блока consult */
+.consult_text .text h3{
+    font-size: 2.7em;
+}
+
+/* Стили для подзаголовков внутри текста блока consult */
+.text h4{
+    padding-top: 10px;
+}
+
+/* Кнопки для консультации */
+.consult_btn{
+    display: flex; /* Используется flexbox для выравнивания элементов */
+    width: 60%; /* Ширина контейнера с кнопками */
+    flex-direction: row; /* Устанавливает горизонтальное направление для flexbox */
+    justify-content: space-between; /* Разделяет кнопки по всему доступному пространству */
+}
+
+/* Настройки для всех кнопок внутри контейнера */
+.consult_btn button{
+    width: 160px; /* Ширина кнопок */
+    height: 35px; /* Высота кнопок */
+}
+
+/* Кнопка второго типа */
+.consult_btn .sec{
+    border: 1px solid #CFAE87; /* Устанавливает цвет границы */
+}
+.consult_btn .sec:hover{
+    box-shadow: 1px 1px 15px 5px #b3b3b3; /* Тень при наведении */
+    border: none; /* Убирает границу при наведении */
+    background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B); /* Радиальный градиент фона при наведении */
+}
+
+/* Кнопка первого типа */
+.consult_btn .fir{
+    background-color: #CEAD78; /* Цвет фона */
+    border: none; /* Убирает границу */
+    color: white; /* Цвет текста */
+}
+.consult_btn .fir:hover{
+    background: linear-gradient(to right, #F6EFD2, #CEAD78); /* Линейный градиент фона при наведении */
+    box-shadow: 1px 1px 15px 5px #CFAE87; /* Тень при наведении */
+}
+
+/* Изображения внутри текста консультации */
+.consult_text img{
+    width: 20px; /* Ширина изображений */
+    height: 20px; /* Высота изображений */
+    margin-right: 5px; /* Отступ справа от изображений */
+}
+
+/* Блок с вопросами */
+.vopr{
+    margin-top: 70px; /* Отступ сверху */
+    width: 100%; /* Ширина блока */
+    height: 500px; /* Высота блока */
+    box-shadow: 1px 1px 5px 5px #F2F2F2; /* Тень для блока */
+}
+
+/* Заголовок текста */
+.nazv_text{
+    width: 100%; /* Ширина блока */
+    display: flex; /* Используется flexbox */
+    flex-direction: column; /* Вертикальное направление для flexbox */
+    font-size: 2.2em; /* Размер шрифта */
+    margin-top: 40px; /* Отступ сверху */
+    margin-bottom: 30px; /* Отступ снизу */
+    align-items: center; /* Выравнивание элементов по центру */
+}
+
+/* Аккордеон */
+#accordion{
+    width: 90%; /* Ширина аккордеона */
+    border: 1px solid #D8D8D8; /* Цвет границы */
+    border-radius: 2px; /* Радиус скругления углов */
+}
+#accordion h3{
+    display: flex; /* Используется flexbox */
+    justify-content: start; /* Выравнивание по началу */
+    background-color: white; /* Цвет фона */
+    color: black; /* Цвет текста */
+    border: none; /* Убирает границу */
+}
+
+/* Таблица */
+.tabl{
+    display: flex; /* Используется flexbox */
+    justify-content: center; /* Выравнивание по центру */
+}
+
+/* Вопросы */
+.qs{
+    font-size: 0.8em; /* Размер шрифта */
+    color: #474747; /* Цвет текста */
+}
+
+/* Новости */
+.news{
+    display: flex; /* Используется flexbox */
+    width: 100%; /* Ширина блока */
+    margin-top: 50px; /* Отступ сверху */
+    flex-direction: column; /* Вертикальное направление для flexbox */
+}
+
+/* Основной блок новостей */
+.m_news{
+    display: flex; /* Используется flexbox */
+    flex-direction: row; /* Горизонтальное направление для flexbox */
+    justify-content: space-between; /* Разделяет элементы по всему доступному пространству */
+    align-items: center; /* Выравнивание элементов по центру */
+}
+
+/* Заголовки новостей */
+.m_news h3{
+    font-size: 3.4em; /* Размер шрифта */
+}
+
+/* Кнопки новостей */
+.m_news button{
+    justify-content: space-between; /* Разделяет элементы внутри кнопки */
+    width: 160px; /* Ширина кнопок */
+    height: 40px; /* Высота кнопок */
+    color: white; /* Цвет текста */
+    background-color: #CFAE87; /* Цвет фона */
+    border: none; /* Убирает границу */
+}
+
+/* Кнопки новостей при наведении */
+.m_news button:hover{
+    background: linear-gradient(to right, #F6EFD2, #CEAD78); /* Линейный градиент фона при наведении */
+    box-shadow: 0 0 0 2px #CEAD78 inset, 0 0 0 4px white inset; /* Тень при наведении */
+}
+
+/* Карточки новостей */
+.cards_news{
+    display: grid; /* Используется CSS grid */
+    margin-top: 30px; /* Отступ сверху */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Шаблон колонок */
+    width: 100%; /* Ширина блока */
+    justify-content: space-between; /* Разделяет элементы по всему доступному пространству */
+}
+
+/* Отдельная карточка новостей */
+.card_news{
+    display: flex; /* Используется flexbox */
+    flex-direction: column; /* Вертикальное направление для flexbox */
+    width: 95%; /* Ширина карточки */
+    background-color: white; /* Цвет фона */
+}
+
+/* Изображения в карточке новостей */
+.card_news .img_news img{
+    display: flex; /* Используется flexbox */
+    width: 100%; /* Ширина изображений */
+}
+
+/* Информация в карточке новостей */
+.text_news .info{
+    display: flex; /* Используется flexbox */
+    flex-direction: row; /* Горизонтальное направление для flexbox */
+    margin-top: 10px; /* Отступ сверху */
+    justify-content: space-between; /* Разделяет элементы по всему доступному пространству */
+    align-items: center; /* Выравнивание элементов по центру */
+    font-size: 0.8em; /* Размер шрифта */
+}
+
+/* Текст информации */
+.info p{
+    display: flex; /* Используется flexbox */
+    flex-direction: row; /* Горизонтальное направление для flexbox */
+    align-items: center; /* Выравнивание элементов по центру */
+}
+
+/* Изображения в информации */
+.text_news .info img{
+    width: 15px; /* Ширина изображений */
+    height: 15px; /* Высота изображений */
+}
+
+/* Заголовки в тексте новостей */
+.text_news h5{
+    font-size: 1.5em; /* Размер шрифта */
+    margin: 0; /* Убирает отступы */
+}
+
+/* Второстепенный текст в новостях */
+.text_news .sec, .sec_1{
+    margin-top: 10px; /* Отступ сверху */
+    font-size: 0.8em; /* Размер шрифта */
+}
+
+/* Основной текст и кнопка новостей */
+.text_news, .btn_news{
+    padding: 10px; /* Внутренние отступы */
+    margin-top: 10px; /* Отступ сверху */
+}
+
+/* Блок для кнопки "Поделиться" */
+.share{
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Кнопка "Читать дальше" */
+.btn_read{
+    display: flex; /* Используется flexbox */
+    width: 100%; /* Ширина блока */
+    align-items: end; /* Выравнивание элементов по нижнему краю */
+    justify-content: center; /* Выравнивание по центру */
+}
+
+/* Кнопка "Читать дальше" */
+.btn_read button{
+    display: flex; /* Используется flexbox */
+    width: 100%; /* Ширина кнопки */
+    height: 40px; /* Высота кнопки */
+    align-items: center; /* Выравнивание элементов по центру */
+    justify-content: center; /* Выравнивание по центру */
+    background-color: white; /* Цвет фона */
+    border: 1px solid #CFAE87; /* Цвет и стиль границы */
+}
+
+/* Кнопка "Читать дальше" при наведении */
+.btn_read button:hover{
+    border: none; /* Убирает границу */
+    box-shadow: 1px 1px 5px 1px #b5b5b5; /* Тень при наведении */
+}
+
+/* Блок подписки */
+.sub{
+    display: grid; /* Используется CSS grid */
+    grid-template-columns: 1fr 1fr; /* Шаблон колонок */
+    width: 100%; /* Ширина блока */
+    margin-top: 70px; /* Отступ сверху */
+    padding-left: 5px; /* Внутренний отступ слева */
+    padding-right: 5px; /* Внутренний отступ справа */
+    align-items: center; /* Выравнивание элементов по центру */
+    background-color: #BB9B75; /* Цвет фона */
+}
+
+/* Основной блок подписки */
+.osn_sub{
+    display: flex; /* Используется flexbox */
+    flex-direction: column; /* Вертикальное направление для flexbox */
+}
+
+/* Первый блок подписки */
+.fir_sub{
+    display: flex; /* Используется flexbox */
+    width: 100%; /* Ширина блока */
+    flex-direction: row; /* Горизонтальное направление для flexbox */
+    justify-content: space-between; /* Разделяет элементы по всему доступному пространству */
+}
+
+/* Заголовок в первом блоке подписки */
+.fir_sub h2{
+    font-size: 2.3em; /* Размер шрифта */
+    color: white; /* Цвет текста */
+}
+
+/* Текст в первом блоке подписки */
+.fir_sub p{
+    display: flex; /* Используется flexbox */
+    align-items: end; /* Выравнивание элементов по нижнему краю */
+    color: white; /* Цвет текста */
+    font-size: 0.7em; /* Размер шрифта */
+}
+
+/* Второй блок подписки, часть 1 */
+.sec_sub_1{
+    display: flex; /* Используется flexbox */
+    width: 100%; /* Ширина блока */
+    height: 100%; /* Высота блока */
+}
+
+/* Изображения в первом блоке подписки */
+.sec_sub_1 img{
+    width: 100%; /* Ширина изображений */
+}
+
+/* Второй блок подписки, часть 2 */
+.sec_sub_2{
+    display: flex; /* Используется flexbox */
+    width: 100%; /* Ширина блока */
+    flex-direction: row; /* Горизонтальное направление для flexbox */
+    padding-top: 25px; /* Отступ сверху */
+    align-items: center; /* Выравнивание элементов по центру */
+    justify-content: space-between; /* Разделяет элементы по всему доступному пространству */
+}
+
+/* Поле ввода в блоке подписки */
+.sec_sub_2 input{
+    width: 65%; /* Ширина поля ввода */
+    height: 25px; /* Высота поля ввода */
+    border: none; /* Убирает границу */
+}
+
+/* Поле ввода при наведении в блоке подписки */
+.sec_sub_2 input:hover{
+    background-color: #e8e8e8; /* Цвет фона при наведении */
+    box-shadow: 1px 1px 5px 1px #b5b5b5; /* Тень при наведении */
+}
+
+/* Кнопка в блоке подписки */
+.sec_sub_2 button{
+    width: 30%; /* Ширина кнопки */
+    height: 25px; /* Высота кнопки */
+    background-color: #AE8F6A; /* Цвет фона */
+    color: white; /* Цвет текста */
+    border: 1px solid white; /* Цвет и стиль границы */
+}
+
+/* Кнопка в блоке подписки при наведении */
+.sec_sub_2 button:hover{
+    background: linear-gradient(to right, #F6EFD2, #CEAD78); /* Линейный градиент фона при наведении */
+    border: 1px solid #CEAD78; /* Цвет и стиль границы при наведении */
+}
+
+/* Кнопка прокрутки вверх */
+.scroll{
+    display: flex; /* Используется flexbox */
+    width: 90%; /* Ширина блока */
+    justify-content: end; /* Выравнивание элементов по правому краю */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+/* Кнопка прокрутки вверх */
+#scrollToTopBtn {
+    cursor: pointer; /* Курсор в виде указателя */
+    border: none; /* Убирает границу */
+    background: none; /* Убирает фон */
+}
+#scrollToTopBtn img{
+    width: 100%; /* Ширина изображений */
+    border-radius: 20%; /* Радиус скругления углов */
+}
+
+/* Подвал сайта */
+footer{
+    width: 90%; /* Ширина подвала */
+    display: grid; /* Используется CSS grid */
+    grid-template-columns: 25% 20% 15% 15% 25%; /* Шаблон колонок */
+    align-items: start; /* Выравнивание элементов по верхнему краю */
+    justify-content: space-between; /* Разделяет элементы по всему доступному пространству */
+    margin-top: 30px; /* Отступ сверху */
+}
+
+/* Заголовки и списки в подвале */
+footer h3, ul{
+    font-size: 0.8em; /* Размер шрифта */
+    list-style-type: none; /* Убирает маркеры списка */
+    padding-left: 0; /* Убирает внутренние отступы слева */
+}
+
+/* Элементы списка в подвале */
+footer li{
+    padding-bottom: 10px; /* Отступ снизу */
+}
+
+/* Логотип в подвале */
+.logo_2{
+    display: flex; /* Используется flexbox */
+    width: 100%; /* Ширина блока */
+    align-items: center; /* Выравнивание элементов по центру */
+}
+
+/* Заголовок логотипа в подвале */
+.logo_2 h3{
+    font-size: 1em; /* Размер шрифта */
+}
+
+/* Текстовый блок в подвале */
+.block_1 p{
+    display: flex; /* Используется flexbox */
+    font-size: 0.8em; /* Размер шрифта */
+}
+
+
+
+

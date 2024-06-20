@@ -1,0 +1,594 @@
+@media(max-width: 1000px){
+    .cont_1 h2{
+        font-size: 0.85em;
+    }
+    .con{
+        font-size: 1.6em;
+    }
+    .contain p{
+        font-size: 0.7em;
+    }
+    .cont_gr select{
+        font-size: 0.8em;
+    }
+    .cont img{
+        width: 30px;
+    }
+
+    .int_text .fir{
+        font-size: 4em;
+    }
+    .int_text p{
+        font-size: 0.8em;
+    }
+    .podrob .priem{
+        padding-top: 15px;
+    }
+    .priem .fir .one,.two{
+        font-size: 1em;
+    }
+    .podrob .three{
+        font-size: 0.8em;
+    }
+
+    .fisrt__ p{
+        font-size: 0.7em;   
+    }
+ 
+    .contain_1{
+        height: 25px;
+    }
+    .disp_fl h2{
+        font-size: 2.5em;   
+    }
+
+    .reviews h2{
+        font-size: 3em;
+    }
+    .revie_btn button{
+        height: 25px;
+    }
+
+    .consult_text .text h3{
+        font-size: 2em;
+    }
+    .text h4{
+        font-size: 0.9em;
+    }
+    .text p{
+        font-size: 0.7em;
+    }
+    .consult_btn{
+        width: 58%;
+        height: 25px;
+        font-size:0.8em;
+    }
+    .consult_btn button{
+        width: 120px;
+        height: 25px;
+        font-size:0.6em;
+    }
+
+    .nazv_text{
+        font-size: 1.8em;
+    }
+
+    .m_news h3{
+        font-size: 2.5em;   
+    }
+    .m_news button{
+        height: 25px;
+    }
+    .text_news h5{
+        font-size: 1em;
+    }
+    .text_news .sec, .sec_1, p{
+        font-size: 0.6em;
+    }
+
+    .fir_sub h2{
+        font-size: 1.5em;
+    }
+    .fir_sub p{
+        font-size: 0.6em;
+    }
+    .sec_sub_2 input{
+        width: 60%;
+        height: 20px;
+        font-size: 0.6em;
+    }
+    .sec_sub_2 button{
+        width: 37%;
+        height: 20px;
+        font-size: 0.6em;
+    }
+
+    footer h3,ul{
+        font-size: 0.65em;
+    }
+    .logo_2 img{
+        width: 50px;
+    }
+    .logo_2 h3{
+        font-size: 0.8em;
+    }
+    .block_1 p{
+        font-size: 0.65em;
+    }
+}
+
+
+@media(max-width: 900px){
+    .cont_1 h2{
+        font-size: 0.75em;
+    }
+    .con{
+        font-size: 1.25em;
+    }
+    .cont_gr select{
+        font-size: 0.7em;
+    }
+
+    .disp_fl h2{
+        font-size: 2.5em;   
+    }
+
+    .priem .fir .one,.two{
+        font-size: 0.9em;
+    }
+
+    .consult_text .text h3{
+        font-size: 1.9em;
+    }
+    .text h4{
+        font-size: 0.8em;
+    }
+    .text p{
+        font-size: 0.7em;
+    }
+    .consult_btn{
+        width: 63%;
+    }
+    .consult_btn button{
+        width: 48%;
+    }
+
+    .nazv_text{
+        font-size: 1.7em;
+    }
+
+    .text_news .sec, .sec_1, p{
+        font-size: 0.5em;
+    }
+
+    .fir_sub h2{
+        font-size: 1.3em;
+    }
+    .fir_sub p{
+        font-size: 0.55em;
+    }
+}
+
+
+@media(max-width: 800px){
+    .cont_1 h2{
+        font-size: 0.6em;
+    }
+    .con{
+        font-size: 1em;
+    }
+    .contain p{
+        font-size: 0.8em;
+    }
+    .cont_gr select{
+        font-size: 0.6em;
+    }
+
+    .disp_fl h2{
+        font-size:  2.3em;
+    }
+
+    .podrob img{
+        margin-left: 15px;
+        width: 20%;
+    }   
+
+    .int_text .fir{
+        font-size: 3em;
+    }
+    .int_text p{
+        font-size: 0.6em;
+    }
+    .priem .fir .one,.two{
+        font-size: 0.8em;
+    }
+    .podrob .three{
+        font-size: 0.6em;
+    }
+
+    .sertificat p{
+        font-size: 0.75em;
+    }
+
+    .reviews h2{
+        font-size: 2.5em;
+    }
+
+    .consult_text .text h3{
+        font-size: 1.6em;
+    }
+    .text h4{
+        font-size: 0.7em;
+    }
+    .text p{
+        font-size: 0.6em;
+    }
+    .consult_btn{
+        width: 71%;
+    }
+
+    .nazv_text{
+        font-size: 1.5em;
+    }
+
+    .fir_sub h2{
+        font-size: 1em;
+    }
+    .sec_sub_2 input{
+        width: 55%;
+    }
+    .sec_sub_2 button{
+        width: 41%;
+    }
+}
+
+
+@media(max-width: 720px){
+    .con{
+        font-size: 1em;
+    }
+    .contain{
+        width: 90px;
+        height: 20px;
+    }
+    .contain p{
+        font-size: 0.65em;
+    }
+    .cont_gr select{
+        font-size: 0.5em;
+    }
+    .text_cont p{
+        font-size: 0.2em;
+    }
+    .cont_img .img{
+        width: 10px;
+    }
+
+    .raskumar{
+        height: 530px;
+    }
+    .raskumar_top{
+        height: 500px;
+    }
+    .disp_fl h2{
+        font-size: 2em;   
+    }
+    .manual h3{
+        font-size: 0.9em;
+    }
+    .manual p{
+        font-size: 0.6em;
+    }
+    .btn button{
+        height: 25px;
+    }
+    .btn .fir, .sec{
+        font-size: 0.6em;
+    }
+
+    .consult_text .text h3{
+        font-size: 1.25em;
+    }
+    .text h4{
+        font-size: 0.6em;
+    }
+    .text p{
+        font-size: 0.45em;
+    }
+    .consult_btn{
+        width: 90%;
+    }
+
+    .nazv_text{
+        font-size: 1.4em;
+    }
+
+    .text_news .sec, .sec_1, p{
+        font-size: 0.4em;
+    }
+
+    .fir_sub h2{
+        font-size: 0.85em;
+    }
+    .fir_sub p{
+        font-size: 0.45em;
+    }
+    .sec_sub_2 input{
+        width: 60%;
+    }
+    .sec_sub_2 button{
+        width: 35%;
+    }
+
+    footer h3,ul{
+        font-size: 0.6em;
+    }
+    .block_1 p{
+        font-size: 0.6em;
+    }
+}
+
+
+@media(max-width: 600px){
+    .cont_1 h2{
+        font-size: 0.5em;
+    }
+    .cont_1 img{
+        width: 30px;
+    }
+    .cont_2{
+        font-size: 0.75em;
+    }
+    .con{
+        font-size: 0.8em;
+    }
+    .contain p{
+        font-size: 0.6em;
+    }
+    .cont_gr select{
+        font-size: 0.3em;
+    }
+
+    .disp_fl h2{
+        font-size: 1.5em;   
+    }
+
+    .int_text .fir{
+        font-size: 2.5em;
+    }
+    .int_text p{
+        font-size: 0.45em;
+    }
+    .priem .fir .one,.two{
+        font-size: 0.5em;
+    }
+    .podrob .three{
+        font-size: 0.45em;
+    }
+
+    .fisrt__ h1{
+        font-size: 2.5em;
+    }
+    .sertificat p{
+        padding-left: 25px;
+        font-size: 0.5em;
+    }
+
+    .raskumar_top h2{
+        font-size: 2em;
+    }
+
+    .reviews h2{
+        font-size: 2em;
+    }
+
+    .img img{
+        height: 90%;
+    }
+    .consult_text .text h3{
+        font-size: 0.8em;
+    }
+    .text h4{
+        font-size: 0.4em;
+    }
+    .text p{
+        font-size: 0.4em;
+    }
+    .consult_btn{
+        width: 95%;
+        font-size: 0.3em;
+    }   
+
+    .nazv_text{
+        font-size: 1em;
+    }
+
+    .m_news h3{
+        font-size: 1.5em;   
+    }
+    .m_news button{
+        height: 25px;
+    }
+    .text_news h5{
+        font-size: 0.8em;
+    }
+
+    .text_news .sec, .sec_1, p{
+        font-size: 0.55em;
+    }
+
+    .fir_sub h2{
+        font-size: 0.85em;
+    }
+    .fir_sub p{
+        font-size: 0.3em;
+    }
+    .sec_sub_2 input{
+        width: 52%;
+        height: 15px;
+    }
+    .sec_sub_2 button{
+        width: 41%;
+        height: 15px;
+    }
+
+    footer h3,ul{
+        font-size: 0.5em;
+    }
+    .logo_2 img{
+        width: 30px;
+    }
+    .logo_2 h3{
+        font-size: 0.6em;
+    }
+    .block_1 p{
+        font-size: 0.45em;
+    }
+}
+
+
+@media(max-width: 430px){
+    .cont_1 br{
+        display: none;
+    }
+    .cont_2{
+        width: 10%;
+    }
+
+    .cont_gr{
+        display: none;
+    }
+
+    .bild{
+        display: flex;
+        flex-direction: column;
+    }
+    .int_text .fir br{
+        display: none;
+    }
+    .int_text .fir{
+        font-size: 2em;
+        text-align: center;
+    }
+    .int_text p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .img_man{
+        order: 1;
+    }
+    .priem{
+        order: 2;
+    }
+    .podrob{
+        margin-left: -30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .priem .fir .one,.two{
+        font-size: 1em;
+    }
+    .podrob .three{
+        font-size: 0.85em;
+    }
+    .sertificat .fisrt__{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .fisrt__ h1{
+        font-size: 2.5em;
+    }
+    .fisrt__ p{
+        margin-left: 0px;
+        font-size: 0.7em;
+    }
+
+    .disp_fl button{
+        display: none;
+    }
+    .disp_fl{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .m_otziv
+    .reviews{
+        display: flex;
+        flex-direction: column;
+    }
+    .otziv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .consult{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 5px 5px #F2F2F2;
+        height: 750px;
+    }
+    .consult_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .consult_text .text{
+        margin-bottom: 5px;
+    }
+    .consult_text .text h3{
+        font-size: 1.5em;
+    }
+    .text h4{
+        font-size: 0.7em;
+    }
+    .text li{
+        font-size: 1em;
+    }
+    .text p{
+        font-size: 0.5em;
+    }
+    .consult_btn{
+        padding: 0px;
+        display: flex;
+        width: 100%;
+        height: 12%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .consult_btn button{
+        width: 50%;
+        margin-top: 10px;
+        height: 100px;
+    }
+
+    .nazv_text{
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .news .m_news h3{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 1.5em;
+    }
+    .m_news button{
+        display: none;
+    }
+    .cards_news{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
+
+
+
+
+
